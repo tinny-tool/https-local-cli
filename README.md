@@ -1,6 +1,6 @@
 <h1 text-align="center">https-local-cli</h1>
 
-[![npm version](https://badge.fury.io/js/https-local-cli.svg)](https://badge.fury.io/js/tinny-tool/https-local-cli)
+[![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](package.json)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A command-line interface (CLI) tool for creating a local HTTPS server with custom proxy support. This tool simplifies the process of setting up a secure local development environment, particularly useful for testing applications that require HTTPS or for working with APIs that mandate secure connections.
