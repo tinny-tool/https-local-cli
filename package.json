@@ -1,0 +1,26 @@
+{
+  "name": "https-local-cli",
+  "version": "1.0.0",
+  "description": "Local HTTPS server CLI with custom proxy support",
+  "main": "bin/https-local.js",
+  "bin": {
+    "https-local": "./bin/https-local.js"
+  },
+  "scripts": {
+    "start": "node bin/https-local.js"
+  },
+  "keywords": [
+    "https",
+    "local",
+    "server",
+    "cli",
+    "proxy"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.3.0",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.1"
+  }
+}
